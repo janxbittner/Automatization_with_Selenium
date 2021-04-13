@@ -308,7 +308,7 @@ class AM4Bot():
                 
           
         # Click on Departure all button if plain wait to departure
-                Depart_All_btn = self.driver.find_element_by_xpath('//*[@id="listDepartAll"]/div/button')
+                Depart_All_btn = self.driver.find_element_by_xpath('//*[@id="listDepartAll"]/div/button[2]') # Added index [2] for it to work
                 Depart_All_btn.click()
                 
                 
